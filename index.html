@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Krew i Kości: Klątwa Strahda — Bursztynowa Świątynia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- motyw gotycki/Strahd -->
+  <link rel="stylesheet" href="themes/strahd.css">
+  <link rel="stylesheet" href="base.css">
+</head>
+<body>
+  <div id="show">
+    <div id="stage">
+      <div class="layer" id="L0"></div>
+      <div class="layer" id="L1"></div>
+    </div>
+    <div id="zones">
+      <div class="z" id="zL"></div><div class="z zc" id="zC"></div><div class="z" id="zR"></div>
+    </div>
+    <div id="ui">
+      <div id="acttag"></div>
+      <div id="segs"></div>
+      <div id="progress"><div id="fill"></div></div>
+      <div id="bar">
+        <button id="prev" title="Poprzedni (←)">‹</button>
+        <button id="playpause" title="Pauza / wznów (spacja)">⏸</button>
+        <button id="next" title="Następny (→)">›</button>
+        <button id="mute" title="Włącz / wyłącz dźwięk (M)">♪</button>
+        <button id="full" title="Pełny ekran (F)">⛶</button>
+        <span id="counter">1 / 1</span>
+      </div>
+    </div>
+    <div id="start">
+      <h1>Krew i Kości: Klątwa Strahda</h1>
+      <p>Bursztynowa Świątynia · głosy uwięzione w bursztynie</p>
+      <button id="btn-start">▶ Wejdź</button>
+    </div>
+  </div>
+  <script src="slides.js"></script>
+  <script src="engine.js"></script>
+</body>
+</html>
